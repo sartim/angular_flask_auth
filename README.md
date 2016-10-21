@@ -18,6 +18,6 @@ Flask Authentication system using Agular and sqlite3. It includes Login, Registr
 
 ### Start the Development server
 
-This command serves the project at `http://0.0.0.0:8080`
+This command serves the project at `http://127.0.0.1:5000`
 
-    $ python runserver.py
+    $ python manage.py runserver

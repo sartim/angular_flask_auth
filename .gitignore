@@ -1,0 +1,10 @@
+env
+venv
+__pycahe__
+*.pyc
+*.sqlite
+.DS_Store
+env.sh
+blog.md
+migrations
+_old

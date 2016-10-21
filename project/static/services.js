@@ -90,6 +90,21 @@ angular.module('myApp').factory('AuthService',
     }
 
 
+    function getUserStatus() {
+      return $http.get('/api/status')
+      // handle success
+      .success(function (data) {
+        if(data.status){
+          user = true;
+        } else {
+          user = false;
+        }
+      })
+      // handle error
+      .error(function (data) {
+        user = false;
+      });
+    }
 
 
 
@@ -98,7 +113,8 @@ angular.module('myApp').factory('AuthService',
       isLoggedIn: isLoggedIn,
       login: login,
       logout: logout,
-      register: register
+      register: register,
+      getUserStatus: getUserStatus
     });
 
 }]);

@@ -10,7 +10,7 @@ itsdangerous==0.24
 Jinja2==2.8
 Mako==1.0.3
 MarkupSafe==0.23
-pycparser==2.14
+pycparser==2.20
 python-bcrypt==0.3.1
 python-editor==0.5
 six==1.10.0

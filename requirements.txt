@@ -15,4 +15,4 @@ python-bcrypt==0.3.1
 python-editor==0.5
 six==1.10.0
 SQLAlchemy==1.0.12
-Werkzeug==0.15.3
+Werkzeug==2.0.0
